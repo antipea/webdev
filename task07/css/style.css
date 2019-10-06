@@ -1,0 +1,136 @@
+body {
+    font: 0.8em Arial, Helvetica, sans-serif;
+}
+a { color: #008BCE;}
+
+#container {
+    width: auto;
+    margin: 0 auto;
+}
+#header {
+    background: #11B1D8;
+    height: 120px;
+}
+.header-bg {
+    background: url(css/Folders.png) left bottom;
+
+}
+.header-bg img {
+    position: relative;
+    text-align: right;}
+
+#string {
+    font-size: 1em;
+    text-align: right;
+    padding: 5px;
+    height: 40px;
+    border-top: #333333 1px solid;
+    border-bottom: #333333 1px solid;
+}
+
+#left, #right {
+    float: left; width: 200px; padding: 5px;
+    color: #000;
+    border-right: #333333 1px solid;
+
+}
+#center {
+    margin: 0 200px;
+    padding: 10px;
+}
+
+#right {
+    float: right;
+    text-align: center;
+    border-left: #333333 1px solid;
+}
+
+h2 { margin: 0 0 1em; }
+
+#footer {
+    clear: both;
+    padding: 5px;
+    background: #333;
+    text-align: center;
+    color: #ffe;
+}
+
+#frmLogin {
+    padding: 20px 40px 40px 40px;
+    margin: 0 auto;
+    background: #D7E1F2;
+    border: #acd4f1 1px solid;
+    color: #333;
+    border-radius: 2px;
+    width: 300px;
+}
+
+.field-group {
+    margin-top: 15px;
+}
+
+.input-field {
+    padding: 12px 10px;
+    width: 100%;
+    border: #A3C3E7 1px solid;
+    border-radius: 2px;
+    margin-top: 5px
+}
+
+.form-submit-button {
+    background: #3a96d6;
+    border: 1;
+    padding: 10px 0px;
+    border-radius: 2px;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.error-message {
+    text-align: center;
+    color: #FF0000;
+}
+
+.member-dashboard {
+    padding: 20px;
+    background: #D7E1F2;
+    color: #555;
+    border-radius: 1px;
+    display: inline-block;
+}
+
+.member-dashboard a {
+    color: #09F;
+    text-decoration: none;
+}
+table {border: 1px solid #69c;}
+th {
+    font-weight: normal;
+    color: #039;
+    border-bottom: 1px dashed #69c;
+    padding: 12px 17px;
+}
+td {
+    color: #669;
+    padding: 7px 17px;
+}
+tr:hover td {background: #ccddff;}
+
+.button {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #17C77E;
+    box-shadow: 0 -3px #35A76E inset;
+    transition: 0.2s;
+}
+
+.button:hover { background: #35A76E; }
+
+.button:active {
+    background: #21935A;
+    box-shadow: 0 3px #21935A inset;
+}

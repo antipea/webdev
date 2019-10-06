@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <title>Private File Manager</title>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <p>Necessary to login required</p>
+    </div>
+
+    <div id="left">
+        <div>
+            <p>It is a item for future menu</p>
+        </div>
+    </div>
+
+    <div id="right">
+        <div>
+            <p>You can see in this item the statistics of our Private File Manager.</p>
+        </div>
+    </div>
+
+    <div id="center">
+        <form action="" method="post" id="frmLogin">
+            <div class="error-message"><?php if (isset($message)) {
+    echo $message;} ?></div>
+            <div class="field-group">
+                <div>
+                    <label for="login">Username</label>
+                </div>
+                <div>
+                    <input name="member_name" type="text"
+                           value="<?php if(isset($_COOKIE["member_login"])) { echo $_COOKIE["member_login"]; } ?>"
+                           class="input-field">
+
+                </div>
+            </div>
+            <div class="field-group">
+                <div>
+                    <label for="password">Password</label>
+                </div>
+                <div>
+                    <input name="member_password" type="password"
+                           value="<?php if(isset($_COOKIE["member_password"])) { echo $_COOKIE["member_password"]; } ?>"
+                           class="input-field">
+                </div>
+            </div>
+            <div class="field-group">
+                <div>
+                    <input type="checkbox" name="remember" id="remember"
+                    <?php if(isset($_COOKIE["member_login"])) { ?> checked
+                    <?php } ?> /> <label for="remember-me">Remember me</label>
+                </div>
+            </div>
+            <div class="field-group">
+                <div>
+                    <input type="submit" name="login" value="Login"
+                           class="form-submit-button"></span>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="footer">
+        <p>2019, EPAM RD PHP Training</p>
+    </div>
+</div>
+
+
+</body>
+</html>
