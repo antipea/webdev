@@ -1,4 +1,4 @@
-*, *::before, *::after {
+﻿*, *::before, *::after {
     box-sizing: inherit;
 }
 
@@ -28,10 +28,6 @@ ul, li {
 a:hover,
 a:active {
     color: #52B85C;
-}
-
-.navbar-list {
-
 }
 
 .wrapper {
@@ -67,7 +63,7 @@ a:active {
     width: 100%
 }
 
-/* ++ Шапка begin ++*/
+/* ++ РЁР°РїРєР° begin ++*/
 header {
     z-index: 4;/**/
 }
@@ -220,7 +216,6 @@ ul.social-list {
     padding-left: 0;
 }
 
-
 ul.social-list li {
     display: inline;
     padding-right: 34px;
@@ -232,22 +227,6 @@ ul.social-list li:first-child {
 ul.social-list li:last-child {
     padding-right: 0;
 }
-
-/*.icon {
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    margin-right: 10px;
-    margin-top: 10px;
-    text-align: -webkit-center;
-}
-
-.each-position {
-    width: 350px;
-    height: auto;
-    display: flex;
-}*/
 
 .social-list .icon {
     width: 20px;
@@ -270,7 +249,7 @@ ul.social-list li:nth-child(3) .icon {
 ul.social-list li:nth-child(4) .icon {
     background: no-repeat url("assets/icon4.svg");
 }
-/* -- Шапка end -- */
+/* -- РЁР°РїРєР° end -- */
 
 /*++ Search begin ++*/
 .search {
@@ -344,77 +323,6 @@ input.search_input + button.check {
     background-position: center;
 }
 /*-- Search end --*/
-
-/* ++ Advantage begin ++ */
-/*.advantages {
-    height: 935px;
-    background: #FFFFFF;
-    margin-bottom: 60px;
-}
-
-.advantages-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.advantage {
-    width: 350px;
-    margin-bottom: 50px;
-    position: relative;
-    padding: 0;
-}
-
-.header-advantages {
-    display: flex;
-    flex-wrap: wrap;
-    width: inherit;
-    height: 41px;
-    left: 315px;
-    margin-top: 30px;
-    margin-bottom: 70px;
-}
-
-.header-advantages p {
-    font-size: 36px;
-    line-height: 41px;
-}
-
-.body-possibility {
-    position: absolute;
-    width: 300px;
-    height: 192px;
-    left: 315px;
-    top: 2658px;
-    font-size: 16px;
-    line-height: 24px;
-
-    color: #666666
-}*/
-
-/*.href-pos {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.href-pos a {
-    width: 197px;
-    height: 18px;
-    font-size: 16px;
-    line-height: 18px;
-    text-decoration-line: underline;
-    color: #3598DB;
-    cursor: pointer;
-}*/
-/* -- Advantage end -- */
 
 
 /* ++ Main begin  ++*/
@@ -560,7 +468,6 @@ section.download > div.container.column > div.row > button:last-child {
 
 
 /* ++ FOOTER begin ++ */
-
 footer {
     height: 185px;
     background-color: #000000;
@@ -569,16 +476,6 @@ footer {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
 }
-
-/*footer .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 100%;
-}*/
 
 footer > div.container.row {
     justify-content: space-around;
